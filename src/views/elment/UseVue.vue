@@ -88,7 +88,7 @@
           </el-form-item>
         </el-form>
         <!-- 显示table -->
-        <el-table :data="tableData" style="width: 70%">
+        <el-table :data="tableData" style="width: 80%">
           <el-table-column label="日期" width="180">
             <template slot-scope="scope">
               <i class="el-icon-time"></i>
