@@ -106,6 +106,12 @@
               </el-popover>
             </template>
           </el-table-column>
+          <el-table-column label="密码" width="180">
+            <template slot-scope="scope">
+              <!-- <i class="el-icon-time"></i> -->
+              <span style="margin-left: 10px">{{ scope.row.password }}</span>
+            </template>
+          </el-table-column>
           <el-table-column label="操作">
             <template slot-scope="scope">
               <el-button
@@ -176,21 +182,25 @@ export default {
           date: "2016-05-02",
           name: "王小虎",
           address: "上海市普陀区金沙江路 1518 弄",
+          password: "123456",
         },
         {
           date: "2016-05-04",
           name: "王小虎",
           address: "上海市普陀区金沙江路 1517 弄",
+          password: "123456",
         },
         {
           date: "2016-05-01",
           name: "王小虎",
           address: "上海市普陀区金沙江路 1519 弄",
+          password: "123456",
         },
         {
           date: "2016-05-03",
           name: "王小虎",
           address: "上海市普陀区金沙江路 1516 弄",
+          password: "123456",
         },
       ],
       formInline: {
