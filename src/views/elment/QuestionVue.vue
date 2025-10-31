@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-header>Header</el-header>
+    <!-- <el-header>Header</el-header> -->
     <el-header style="font-size: 40px; background-color: rgb(238, 241, 246)"
       >Quiz后台管理</el-header
     >
