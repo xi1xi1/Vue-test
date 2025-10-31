@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-header>Header</el-header>
+    <!-- <el-header>Header</el-header> -->
     <el-header style="font-size: 40px; background-color: rgb(238, 241, 246)"
       >Quiz后台管理</el-header
     >
@@ -88,7 +88,7 @@
           </el-form-item>
         </el-form>
         <!-- 显示table -->
-        <el-table :data="tableData" style="width: 60%">
+        <el-table :data="tableData" style="width: 70%">
           <el-table-column label="日期" width="180">
             <template slot-scope="scope">
               <i class="el-icon-time"></i>
